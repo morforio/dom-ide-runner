@@ -5,7 +5,7 @@ Rode JavaScript com **DOM de verdade** direto do seu editor, com a saída caindo
 ```js
 const titulo = document.getElementById('titulo');
 console.log(titulo.textContent);
-titulo.innerHTML = '<h2>Funciona</h2>';
+titulo.innerText = "Funciona";
 console.log(titulo.textContent);
 ```
 
