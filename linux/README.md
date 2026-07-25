@@ -3,7 +3,7 @@
 Rode JavaScript com **DOM de verdade** direto do seu editor, com a saída caindo no painel de output. Sem abrir navegador, sem abrir aba, sem alternar de janela.
 
 ```js
-const titulo = document.getElementById('titulo');
+const doc = document.getElementById('titulo');
 console.log(doc.textContent);
 doc.innerText = "Teste2";
 console.log(doc.textContent)
