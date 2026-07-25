@@ -4,16 +4,16 @@ Rode JavaScript com **DOM de verdade** direto do seu editor, com a saída caindo
 
 ```js
 const titulo = document.getElementById('titulo');
-console.log(titulo);
-titulo.innerHTML = '<h2>Funciona</h2>';
-console.log(titulo);
+console.log(doc.textContent);
+doc.innerText = "Teste2";
+console.log(doc.textContent)
 ```
 
 `Ctrl+Alt+N` e a saída aparece ali mesmo:
 
 ```
-<h1 id="titulo">Olá</h1>
-<h1 id="titulo"><h2>Funciona</h2></h1>
+Olá
+Funciona
 ```
 
 > Esta pasta é autocontida. Tudo que o instalador do Linux precisa está aqui dentro.
