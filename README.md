@@ -4,16 +4,16 @@ Rode JavaScript com **DOM de verdade** direto do seu editor, com a saída caindo
 
 ```js
 const titulo = document.getElementById('titulo');
-console.log(titulo);
-titulo.innerHTML = '<h2>Funciona</h2>';
+console.log(titulo.textContent);
+titulo.innerHTML = '<h2>Funciona.textContent</h2>';
 console.log(titulo);
 ```
 
 `Ctrl+Alt+N`:
 
 ```
-<h1 id="titulo">Olá</h1>
-<h1 id="titulo"><h2>Funciona</h2></h1>
+Olá
+Funciona
 ```
 
 ---
